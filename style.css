@@ -1,0 +1,38 @@
+body{
+    background-color: #c8d4de;
+    padding: 5% 0% 0% 2%;
+}
+h1{
+    font-family: "Lora", serif;
+    margin: auto 20%;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    margin: 100px ;
+    margin-top: 50px;
+    width: 40%;
+    height: 250px;
+    gap: 3px;
+    position: relative;
+    left: 350px;
+}
+.gallery img{
+    width: 15%;
+    height: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.gallery img:hover{
+    cursor: pointer;
+    width: 100%;
+    scale: 1.1;
+}
